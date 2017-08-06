@@ -1,2 +1,2 @@
-java -cp bin;lib/* org.testng.TestNG Demo1.xml
+java -cp bin;lib/* org.testng.TestNG Demo12.xml
 pause
