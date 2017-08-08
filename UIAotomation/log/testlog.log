@@ -1,0 +1,30 @@
+2017-07-31 19:41:51,359 - uiAutomation.testBase.TestBase -INFO - Createing object of firefox
+2017-07-31 19:41:57,492 - uiAutomation.testBase.TestBase -INFO - Navigate to the https://www.facebook.com/
+2017-07-31 19:41:59,640 - uiAutomation.testBase.TestBase -INFO - ===Start VerifyInvalidLogin  test===
+2017-07-31 19:43:38,436 - uiAutomation.testBase.TestBase -INFO - Createing object of firefox
+2017-07-31 19:43:44,204 - uiAutomation.testBase.TestBase -INFO - Navigate to the https://www.facebook.com/
+2017-07-31 19:43:45,537 - uiAutomation.testBase.TestBase -INFO - ===Start VerifyInvalidLogin  test===
+2017-07-31 19:57:13,253 - uiAutomation.testBase.TestBase -INFO - Createing object of firefox
+2017-07-31 19:57:18,751 - uiAutomation.testBase.TestBase -INFO - Navigate to the https://www.facebook.com/
+2017-07-31 19:57:20,922 - uiAutomation.testBase.TestBase -INFO - ===Start VerifyInvalidLogin  test===
+2017-07-31 19:57:20,947 - uiAutomation.testBase.TestBase -INFO - Enter email and password
+2017-07-31 19:57:21,711 - uiAutomation.testBase.TestBase -INFO - Verify signUpForFacebook is displayed on the page
+2017-08-02 01:09:10,520 - uiAutomation.testBase.TestBase -INFO - ===Start VerifyInvalidLogin  test===
+2017-08-02 01:09:10,573 - uiAutomation.testBase.TestBase -INFO - Enter email and password
+2017-08-02 01:09:48,905 - uiAutomation.testBase.TestBase -INFO - Createing object of firefox
+2017-08-02 01:09:54,583 - uiAutomation.testBase.TestBase -INFO - Navigate to the https://www.facebook.com/
+2017-08-02 01:09:56,055 - uiAutomation.testBase.TestBase -INFO - ===Start VerifyInvalidLogin  test===
+2017-08-02 01:09:56,079 - uiAutomation.testBase.TestBase -INFO - Enter email and password
+2017-08-02 01:09:57,317 - uiAutomation.testBase.TestBase -INFO - Verify signUpForFacebook is displayed on the page
+2017-08-02 01:11:06,573 - uiAutomation.testBase.TestBase -INFO - Navigate to the https://www.facebook.com/
+2017-08-02 01:11:10,492 - uiAutomation.testBase.TestBase -INFO - ===Start VerifyInvalidLogin  test===
+2017-08-02 01:11:10,520 - uiAutomation.testBase.TestBase -INFO - Enter email and password
+2017-08-02 01:11:23,858 - uiAutomation.testBase.TestBase -INFO - Verify signUpForFacebook is displayed on the page
+2017-08-02 01:12:35,733 - uiAutomation.testBase.TestBase -INFO - ===Start VerifyInvalidLogin  test===
+2017-08-02 01:12:35,751 - uiAutomation.testBase.TestBase -INFO - Enter email and password
+2017-08-02 01:13:49,728 - uiAutomation.testBase.TestBase -INFO - Navigate to the https://www.facebook.com/
+2017-08-02 01:13:49,835 - uiAutomation.testBase.TestBase -INFO - ===Start VerifyInvalidLogin  test===
+2017-08-02 01:13:49,869 - uiAutomation.testBase.TestBase -INFO - Enter email and password
+2017-08-02 01:14:16,908 - uiAutomation.testBase.TestBase -INFO - Navigate to the https://www.facebook.com/
+2017-08-02 01:14:16,989 - uiAutomation.testBase.TestBase -INFO - ===Start VerifyInvalidLogin  test===
+2017-08-02 01:14:17,016 - uiAutomation.testBase.TestBase -INFO - Enter email and password
