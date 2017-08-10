@@ -16,7 +16,7 @@ public class TestBase {
 	public static final  Logger log=Logger.getLogger(TestBase.class);
 	
 	public WebDriver driver;
-	String browser = "ie";
+	String browser = "firefox";
 	String url = "https://www.facebook.com/";
 
 	public void init() {
