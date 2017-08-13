@@ -11,6 +11,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import uiAutomation.excelReader.ReadExcel;
+
 public class TestBase {
 
 	public static final  Logger log=Logger.getLogger(TestBase.class);
@@ -18,6 +20,7 @@ public class TestBase {
 	public WebDriver driver;
 	String browser = "firefox";
 	String url = "https://www.facebook.com/";
+	ReadExcel excel;
 
 	public void init() {
 		try {
@@ -64,5 +67,12 @@ public class TestBase {
 			
 			System.out.println("Find issue at location [TestBase.java line 32-42]--- "+e.getMessage());
 		}
+	}
+	
+	public String [][] getExcelDate(String excelName,String sheetName){
+		String path=System.getProperty("user.dir")+"/src/main/java/uiAutomation/data/"+excelName;
+		excel=new ReadExcel(path);
+		String data[][]=excel.readAllDataFromSheet(sheetName, excelName);
+		return data;
 	}
 }

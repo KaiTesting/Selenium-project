@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7195" started-at="2017-08-10T00:43:28Z" finished-at="2017-08-10T00:43:35Z">
+  <suite name="SmokeTest" duration-ms="7653" started-at="2017-08-10T02:26:16Z" finished-at="2017-08-10T02:26:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7195" started-at="2017-08-10T00:43:28Z" finished-at="2017-08-10T00:43:35Z">
+    <test name="TC001_VerifyInvalidLogin" duration-ms="7653" started-at="2017-08-10T02:26:16Z" finished-at="2017-08-10T02:26:23Z">
       <class name="uiAotomation.homePage.TC001_VerifyInvalidLogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:uiAotomation.homePage.TC001_VerifyInvalidLogin@210366b4]" name="setup" is-config="true" duration-ms="6001" started-at="2017-08-09T19:43:28Z" finished-at="2017-08-09T19:43:34Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:uiAotomation.homePage.TC001_VerifyInvalidLogin@210366b4]" name="setup" is-config="true" duration-ms="6811" started-at="2017-08-09T21:26:16Z" finished-at="2017-08-09T21:26:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifyInvalidLogin()[pri:0, instance:uiAotomation.homePage.TC001_VerifyInvalidLogin@210366b4]" name="VerifyInvalidLogin" duration-ms="1156" started-at="2017-08-09T19:43:34Z" finished-at="2017-08-09T19:43:35Z">
+        <test-method status="PASS" signature="VerifyInvalidLogin()[pri:0, instance:uiAotomation.homePage.TC001_VerifyInvalidLogin@210366b4]" name="VerifyInvalidLogin" duration-ms="808" started-at="2017-08-09T21:26:22Z" finished-at="2017-08-09T21:26:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyInvalidLogin -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:uiAotomation.homePage.TC001_VerifyInvalidLogin@210366b4]" name="endTest" is-config="true" duration-ms="13" started-at="2017-08-09T19:43:35Z" finished-at="2017-08-09T19:43:35Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:uiAotomation.homePage.TC001_VerifyInvalidLogin@210366b4]" name="endTest" is-config="true" duration-ms="11" started-at="2017-08-09T21:26:23Z" finished-at="2017-08-09T21:26:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- uiAotomation.homePage.TC001_VerifyInvalidLogin -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- TC001_VerifyInvalidLogin -->
+  </suite> <!-- SmokeTest -->
 </testng-results>
