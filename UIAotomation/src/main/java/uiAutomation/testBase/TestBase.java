@@ -26,8 +26,8 @@ public class TestBase {
 		try {
 			selectBrowser(browser);
 			getUrl(url);
-			String log4jConfigPath="log4j.properties";
-			PropertyConfigurator.configure(log4jConfigPath);
+			//String log4jConfigPath="log4j.properties";
+			//PropertyConfigurator.configure(log4jConfigPath);
 		} catch (Exception e) {
 			System.out.println("The error is "+e.getMessage());
 		}
@@ -39,7 +39,7 @@ public class TestBase {
 		if (browser.equalsIgnoreCase("firefox")) {
 
 			System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver.exe");
-			log.info("Createing object of "+browser);
+			//log.info("Createing object of "+browser);
 			driver = new FirefoxDriver();
 		}
 		else if(browser.equalsIgnoreCase("chrome")){
@@ -59,7 +59,7 @@ public class TestBase {
 	public void getUrl(String url) {
 
 		try {
-			log.info("Navigate to the "+url);
+			//log.info("Navigate to the "+url);
 			driver.get(url);
 			driver.manage().window().maximize();
 		

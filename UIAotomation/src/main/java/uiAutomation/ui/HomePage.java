@@ -41,6 +41,7 @@ public class HomePage {
 		emailAddress.sendKeys(email);
 		passWord.sendKeys(password);
 		submitButton.click();	
+		driver.navigate().back();
 	}
 	
 	public String getsignUpForFacebookText(){

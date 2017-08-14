@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="uiAotomation.homePage.TC001_VerifyInvalidLogin">
+      <class name="uiAotomation.homePage.TC002_VerifyInvalidLoginWithDiffData">
         <methods>
-          <include name="endTest"/>
           <include name="VerifyInvalidLogin"/>
           <include name="setup"/>
+          <include name="endTest"/>
         </methods>
-      </class> <!-- uiAotomation.homePage.TC001_VerifyInvalidLogin -->
+      </class> <!-- uiAotomation.homePage.TC002_VerifyInvalidLoginWithDiffData -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
