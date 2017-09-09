@@ -10,15 +10,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
 import uiAutomation.testBase.TestBase;
 import uiAutomation.ui.HomePage;
 
 public class TC001_VerifyInvalidLogin extends TestBase {
 
+	
+	public static final Logger log = Logger.getLogger(TC001_VerifyInvalidLogin.class.getName());
 	HomePage homepage;
-	public static final  Logger log=Logger.getLogger(TestBase.class);
-
 	@BeforeTest
 	public void setup() {
 
@@ -32,7 +31,7 @@ public class TC001_VerifyInvalidLogin extends TestBase {
 		log.info("===Start VerifyInvalidLogin  test===");
 		homepage = new HomePage(driver);
 
-		log.info("Enter email and password");
+		
 		homepage.loginToApplication("test@gmail.com", "password678");
 
 		/*log.info("Verify signUpForFacebook is displayed on the page");
