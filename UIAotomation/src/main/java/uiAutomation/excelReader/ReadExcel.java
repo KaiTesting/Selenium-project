@@ -23,7 +23,7 @@ public class ReadExcel {
 	public ReadExcel(String path) {
 		this.path = path;
 		try {
-			fis = new FileInputStream("path");
+			fis = new FileInputStream(path);
 			workbook = new XSSFWorkbook(fis);
 		} catch (Exception e) {
 

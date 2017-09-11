@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import uiAutomation.testBase.TestBase;
 
-public class HomePage_facebook {
+public class HomePage_facebook extends TestBase {
 	public static final Logger log = Logger.getLogger(HomePage_facebook.class.getName());
 
 	WebDriver driver;

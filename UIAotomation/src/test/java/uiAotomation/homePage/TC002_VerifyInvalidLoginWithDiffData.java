@@ -1,24 +1,18 @@
 package uiAotomation.homePage;
 
-import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-
-import org.testng.annotations.AfterClass;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import junit.framework.Assert;
 import uiAutomation.testBase.TestBase;
-import uiAutomation.ui.HomePage;
+import uiAutomation.ui.HomePage_facebook;
 
 public class TC002_VerifyInvalidLoginWithDiffData extends TestBase {
 
-	HomePage homepage;
-	public static final  Logger log=Logger.getLogger(TestBase.class);
+	HomePage_facebook homepage;
+	public static final Logger log = Logger.getLogger(TestBase.class);
 
 	@BeforeTest
 	public void setup() {
@@ -26,26 +20,30 @@ public class TC002_VerifyInvalidLoginWithDiffData extends TestBase {
 		init();
 
 	}
-	
-	@DataProvider(name="loginData")
-	public String [][] getData(){
-		String [][] testRecords=getExcelDate("TestData.xlsx","Sheet1");
+
+	@DataProvider(name = "loginData")
+	public String[][] getData() {
+		String[][] testRecords = getExcelDate("TestData.xlsx", "Sheet1");
 		return testRecords;
 	}
 
-	@Test(dataProvider="loginData")
-	public void VerifyInvalidLogin(String username,String password) {
+	@Test(dataProvider = "loginData")
+	public void VerifyInvalidLogin(String username, String password) {
 
-		//log.info("===Start VerifyInvalidLogin  test===");
-		homepage = new HomePage(driver);
+		log.info("===Start VerifyInvalidLogin  test===");
+		homepage = new HomePage_facebook(driver);
 
-		//log.info("Enter email and password");
-		homepage.loginToApplication(username, password);
+		log.info("Enter email and password");
+		homepage.loginToApplication(username, password); 
 
-		//log.info("===Finshed VerifyInvalidLogin test====");
+		log.info("Verify <Not You> link displayed");
+		boolean status = homepage.NotYouLink_Displayed();
+		Assert.assertEquals(status, true);
+
+		log.info("===Finshed VerifyInvalidLogin test====");
 	}
 
-	@AfterClass
+	@AfterTest
 	public void endTest() {
 
 		driver.close();

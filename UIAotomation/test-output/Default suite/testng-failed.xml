@@ -5,7 +5,7 @@
     <classes>
       <class name="uiAotomation.homePage.TC002_VerifyInvalidLoginWithDiffData">
         <methods>
-          <include name="VerifyInvalidLogin"/>
+          <include name="VerifyInvalidLogin" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="endTest"/>
         </methods>

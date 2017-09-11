@@ -1,0 +1,144 @@
+2017-09-08 18:58:36 INFO  TestBase:42 - Createing object of firefox
+2017-09-08 18:58:42 INFO  TestBase:62 - Navigate to the https://www.facebook.com/
+2017-09-08 18:58:45 INFO  TestBase:32 - ===Start VerifyInvalidLogin  test===
+2017-09-08 18:58:45 INFO  TestBase:35 - Enter email and password
+2017-09-08 18:58:46 INFO  TestBase:41 - ===Finshed VerifyInvalidLogin test====
+2017-09-08 19:01:26 INFO  TestBase:42 - Createing object of firefox
+2017-09-08 19:01:32 INFO  TestBase:62 - Navigate to the https://www.facebook.com/
+2017-09-08 19:01:35 INFO  TestBase:32 - ===Start VerifyInvalidLogin  test===
+2017-09-08 19:01:35 INFO  TestBase:35 - Enter email and password
+2017-09-08 19:01:36 INFO  TestBase:41 - ===Finshed VerifyInvalidLogin test====
+2017-09-08 19:22:36 INFO  TestBase:42 - Createing object of firefox
+2017-09-08 19:22:42 INFO  TestBase:62 - Navigate to the https://www.facebook.com/
+2017-09-08 19:22:46 INFO  TestBase:32 - ===Start VerifyInvalidLogin  test===
+2017-09-08 19:22:46 INFO  TestBase:43 - Entertest@gmail.com[[FirefoxDriver: firefox on XP (ee0dcbb5-a83c-4d5b-8453-de7daa8dc6ce)] -> xpath: .//*[@id='email']]
+2017-09-08 19:22:46 INFO  TestBase:45 - Enterpassword678[[FirefoxDriver: firefox on XP (ee0dcbb5-a83c-4d5b-8453-de7daa8dc6ce)] -> xpath: .//*[@id='pass']]
+2017-09-08 19:22:47 INFO  TestBase:41 - ===Finshed VerifyInvalidLogin test====
+2017-09-08 19:26:52 INFO  TestBase:42 - Createing object of firefox
+2017-09-08 19:26:58 INFO  TestBase:62 - Navigate to the https://www.facebook.com/
+2017-09-08 19:27:00 INFO  TestBase:32 - ===Start VerifyInvalidLogin  test===
+2017-09-08 19:27:01 INFO  TestBase:43 - Enter test@gmail.com
+2017-09-08 19:27:01 INFO  TestBase:45 - Enter password678
+2017-09-08 19:27:02 INFO  TestBase:41 - ===Finshed VerifyInvalidLogin test====
+2017-09-08 19:30:54 INFO  TestBase:42 - Createing object of firefox
+2017-09-08 19:31:00 INFO  TestBase:62 - Navigate to the https://www.facebook.com/
+2017-09-08 19:31:03 INFO  TC001_VerifyInvalidLogin:32 - ===Start VerifyInvalidLogin  test===
+2017-09-08 19:31:03 INFO  HomePage:36 - Enter test@gmail.com
+2017-09-08 19:31:03 INFO  HomePage:38 - Enter password678
+2017-09-08 19:31:04 INFO  TC001_VerifyInvalidLogin:41 - ===Finshed VerifyInvalidLogin test====
+2017-09-08 19:31:27 INFO  TestBase:42 - Createing object of firefox
+2017-09-08 19:31:34 INFO  TestBase:62 - Navigate to the https://www.facebook.com/
+2017-09-08 19:31:36 INFO  TC001_VerifyInvalidLogin:32 - ===Start VerifyInvalidLogin  test===
+2017-09-08 19:31:37 INFO  HomePage:36 - Enter test@gmail.com
+2017-09-08 19:31:37 INFO  HomePage:38 - Enter password678
+2017-09-08 19:31:38 INFO  TC001_VerifyInvalidLogin:41 - ===Finshed VerifyInvalidLogin test====
+2017-09-08 19:32:38 INFO  TestBase:42 - Createing object of firefox
+2017-09-08 19:32:44 INFO  TestBase:62 - Navigate to the https://www.facebook.com/
+2017-09-08 19:32:46 INFO  TC001_VerifyInvalidLogin:32 - ===Start VerifyInvalidLogin  test===
+2017-09-08 19:32:47 INFO  HomePage:36 - Enter test@gmail.com
+2017-09-08 19:32:47 INFO  HomePage:38 - Enter password678
+2017-09-08 19:32:48 INFO  TC001_VerifyInvalidLogin:41 - ===Finshed VerifyInvalidLogin test====
+2017-09-08 19:33:38 INFO  TestBase:42 - Createing object of firefox
+2017-09-08 19:33:44 INFO  TestBase:62 - Navigate to the https://www.facebook.com/
+2017-09-08 19:33:47 INFO  TC001_VerifyInvalidLogin:32 - ===Start VerifyInvalidLogin  test===
+2017-09-08 19:33:47 INFO  HomePage:36 - Enter test@gmail.com
+2017-09-08 19:33:47 INFO  HomePage:38 - Enter password678
+2017-09-08 19:33:48 INFO  TC001_VerifyInvalidLogin:41 - ===Finshed VerifyInvalidLogin test====
+2017-09-08 19:51:43 INFO  TC001_VerifyInvalidLogin:31 - ===Start VerifyInvalidLogin  test===
+2017-09-08 19:51:43 INFO  HomePage:36 - Enter test@gmail.com
+2017-09-08 19:51:43 INFO  HomePage:38 - Enter password678
+2017-09-08 19:51:44 INFO  TC001_VerifyInvalidLogin:40 - ===Finshed VerifyInvalidLogin test====
+2017-09-09 19:34:22 INFO  HomePage:34 - Enter Grey
+2017-09-09 19:34:23 INFO  HomePage:36 - Enter 0
+2017-09-09 19:34:23 INFO  HomePage:34 - Enter Stephen
+2017-09-09 19:34:23 INFO  HomePage:36 - Enter 0
+2017-09-09 19:34:23 INFO  HomePage:34 - Enter Stan
+2017-09-09 19:34:23 INFO  HomePage:36 - Enter 0
+2017-09-09 19:40:00 INFO  HomePage:34 - Enter Grey
+2017-09-09 19:40:00 INFO  HomePage:36 - Enter 0
+2017-09-09 19:40:04 INFO  HomePage:34 - Enter Stephen
+2017-09-09 19:40:04 INFO  HomePage:36 - Enter 0
+2017-09-09 19:40:04 INFO  HomePage:34 - Enter Stan
+2017-09-09 19:40:04 INFO  HomePage:36 - Enter 0
+2017-09-10 11:50:35 INFO  HomePage:34 - Enter Grey
+2017-09-10 11:50:35 INFO  HomePage:36 - Enter 0
+2017-09-10 11:50:41 INFO  HomePage:34 - Enter Stephen
+2017-09-10 11:50:41 INFO  HomePage:36 - Enter 0
+2017-09-10 11:50:42 INFO  HomePage:34 - Enter Stan
+2017-09-10 11:50:42 INFO  HomePage:36 - Enter 0
+2017-09-10 12:08:37 INFO  HomePage:34 - Enter Grey
+2017-09-10 12:08:37 INFO  HomePage:36 - Enter 0
+2017-09-10 12:08:38 INFO  HomePage:34 - Enter Stephen
+2017-09-10 12:08:38 INFO  HomePage:36 - Enter 0
+2017-09-10 12:14:12 INFO  HomePage:34 - Enter Grey
+2017-09-10 12:14:12 INFO  HomePage:36 - Enter 0
+2017-09-10 12:14:13 INFO  HomePage:34 - Enter Stephen
+2017-09-10 12:14:13 INFO  HomePage:36 - Enter 0
+2017-09-10 12:35:58 INFO  HomePage:34 - Enter Grey
+2017-09-10 12:35:58 INFO  HomePage:36 - Enter 0
+2017-09-10 12:36:04 INFO  HomePage:34 - Enter Stephen
+2017-09-10 12:36:04 INFO  HomePage:36 - Enter 0
+2017-09-10 12:36:04 INFO  HomePage:34 - Enter Stan
+2017-09-10 12:36:04 INFO  HomePage:36 - Enter 0
+2017-09-10 12:36:54 INFO  HomePage:34 - Enter Grey
+2017-09-10 12:36:54 INFO  HomePage:36 - Enter 0
+2017-09-10 12:37:04 INFO  HomePage:34 - Enter Stephen
+2017-09-10 12:37:04 INFO  HomePage:36 - Enter 0
+2017-09-10 12:37:05 INFO  HomePage:34 - Enter Stan
+2017-09-10 12:37:05 INFO  HomePage:36 - Enter 0
+2017-09-10 12:37:54 INFO  HomePage:34 - Enter Grey
+2017-09-10 12:37:54 INFO  HomePage:36 - Enter 0
+2017-09-10 12:37:56 INFO  HomePage:34 - Enter Stephen
+2017-09-10 12:37:56 INFO  HomePage:36 - Enter 0
+2017-09-10 16:56:11 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 16:56:11 INFO  TestBase:36 - Enter email and password
+2017-09-10 16:56:11 INFO  HomePage:37 - Enter Grey
+2017-09-10 16:56:11 INFO  HomePage:39 - Enter 0
+2017-09-10 16:56:12 INFO  TestBase:39 - Verify <Not You> link displayed
+2017-09-10 16:56:12 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 16:56:12 INFO  TestBase:36 - Enter email and password
+2017-09-10 16:56:12 INFO  HomePage:37 - Enter Stephen
+2017-09-10 16:56:12 INFO  HomePage:39 - Enter 0
+2017-09-10 16:56:12 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 16:56:12 INFO  TestBase:36 - Enter email and password
+2017-09-10 16:56:12 INFO  HomePage:37 - Enter Stan
+2017-09-10 16:58:31 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 16:58:31 INFO  TestBase:36 - Enter email and password
+2017-09-10 16:58:31 INFO  HomePage:37 - Enter Grey
+2017-09-10 16:58:31 INFO  HomePage:39 - Enter 0
+2017-09-10 16:58:32 INFO  TestBase:39 - Verify <Not You> link displayed
+2017-09-10 16:58:32 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 16:58:32 INFO  TestBase:36 - Enter email and password
+2017-09-10 16:58:32 INFO  HomePage:37 - Enter Stephen
+2017-09-10 16:58:32 INFO  HomePage:39 - Enter 0
+2017-09-10 16:58:32 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 16:58:32 INFO  TestBase:36 - Enter email and password
+2017-09-10 17:03:49 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 17:03:49 INFO  TestBase:36 - Enter email and password
+2017-09-10 17:03:49 INFO  HomePage:37 - Enter Grey
+2017-09-10 17:03:49 INFO  HomePage:39 - Enter 0
+2017-09-10 17:03:50 INFO  TestBase:39 - Verify <Not You> link displayed
+2017-09-10 17:03:50 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 17:03:50 INFO  TestBase:36 - Enter email and password
+2017-09-10 17:03:50 INFO  HomePage:37 - Enter Stephen
+2017-09-10 17:03:50 INFO  HomePage:39 - Enter 0
+2017-09-10 17:03:50 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 17:03:50 INFO  TestBase:36 - Enter email and password
+2017-09-10 17:09:28 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 17:09:28 INFO  TestBase:36 - Enter email and password
+2017-09-10 17:09:28 INFO  HomePage:37 - Enter Victor
+2017-09-10 17:09:28 INFO  HomePage:39 - Enter 0
+2017-09-10 17:09:29 INFO  TestBase:39 - Verify <Not You> link displayed
+2017-09-10 17:37:36 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 17:37:36 INFO  TestBase:36 - Enter email and password
+2017-09-10 17:37:36 INFO  HomePage_facebook:37 - Enter Victor
+2017-09-10 17:37:51 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 17:37:51 INFO  TestBase:36 - Enter email and password
+2017-09-10 17:37:51 INFO  HomePage_facebook:37 - Enter Victor
+2017-09-10 17:37:51 INFO  HomePage_facebook:39 - Enter 0
+2017-09-10 17:37:52 INFO  TestBase:39 - Verify <Not You> link displayed
+2017-09-10 17:40:05 INFO  TestBase:33 - ===Start VerifyInvalidLogin  test===
+2017-09-10 17:40:05 INFO  TestBase:36 - Enter email and password
+2017-09-10 17:40:05 INFO  HomePage_facebook:37 - Enter Victor
+2017-09-10 17:40:05 INFO  HomePage_facebook:39 - Enter 0
+2017-09-10 17:40:06 INFO  TestBase:39 - Verify <Not You> link displayed
